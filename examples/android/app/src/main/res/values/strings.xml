@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Clova Face Kit Example</string>
+    <string name="bottom_sheet_label_aligner">Aligner</string>
+    <string name="bottom_sheet_label_detector">Detector</string>
+    <string name="bottom_sheet_label_estimator">Estimator</string>
+    <string name="bottom_sheet_label_landmarker">Landmarker</string>
+    <string name="bottom_sheet_label_mask_detector">Mask Detector</string>
+    <string name="bottom_sheet_label_native_total">Native Total</string>
+    <string name="bottom_sheet_label_performance">Performance</string>
+    <string name="bottom_sheet_label_recognizer">Recognizer</string>
+    <string name="bottom_sheet_label_spoofing_detector">Spoofing Detector</string>
+    <string name="bottom_sheet_label_tracker">Tracker</string>
+    <string name="toolbar_title_1st">Clova Face Kit</string>
+    <string name="toolbar_title_2nd">https://github.com/naver/clova-face-kit</string>
+</resources>
