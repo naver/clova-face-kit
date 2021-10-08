@@ -23,15 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController")
-        if let faceDemoViewController = viewController as? ViewController {
-            let presenter = DemoPresenter()
-            presenter.view = faceDemoViewController
-            let interactor = DemoInteractor()
-            interactor.presenter = presenter
-            faceDemoViewController.interactor = interactor
-        }
+        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "InitialNavigationController")
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = viewController
