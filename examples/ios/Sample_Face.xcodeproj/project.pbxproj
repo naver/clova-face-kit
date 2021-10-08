@@ -22,8 +22,22 @@
 		CE10D4562240F5BC00EF0816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE10D4542240F5BC00EF0816 /* Main.storyboard */; };
 		CE10D4582240F5BD00EF0816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE10D4572240F5BD00EF0816 /* Assets.xcassets */; };
 		CE10D45B2240F5BD00EF0816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE10D4592240F5BD00EF0816 /* LaunchScreen.storyboard */; };
+		CE4F721127109F2900D60E63 /* DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F721027109F2900D60E63 /* DemoListViewController.swift */; };
 		CEAC0805228581A600BE4363 /* face_1_720x1280_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAC0803228581A500BE4363 /* face_1_720x1280_02.jpg */; };
 		CEAC0806228581A600BE4363 /* face_1_720x1280_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAC0804228581A600BE4363 /* face_1_720x1280_01.jpg */; };
+		CEE5CFCB27107FB40074F763 /* DemoCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFBB27107FB40074F763 /* DemoCategory.swift */; };
+		CEE5CFCC27107FB40074F763 /* Clova_see_DemoInterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFBD27107FB40074F763 /* Clova_see_DemoInterator.swift */; };
+		CEE5CFCD27107FB40074F763 /* CALayer+draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFBE27107FB40074F763 /* CALayer+draw.swift */; };
+		CEE5CFCE27107FB40074F763 /* Clova_see_DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFBF27107FB40074F763 /* Clova_see_DemoViewController.swift */; };
+		CEE5CFCF27107FB40074F763 /* Clova_see.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE5CFC027107FB40074F763 /* Clova_see.storyboard */; };
+		CEE5CFD027107FB40074F763 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFC227107FB40074F763 /* SettingViewController.swift */; };
+		CEE5CFD127107FB40074F763 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE5CFC327107FB40074F763 /* Setting.storyboard */; };
+		CEE5CFD227107FB40074F763 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFC427107FB40074F763 /* SettingCell.swift */; };
+		CEE5CFD327107FB40074F763 /* UIView+draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFC527107FB40074F763 /* UIView+draw.swift */; };
+		CEE5CFD427107FB40074F763 /* Clova_see_DemoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFC627107FB40074F763 /* Clova_see_DemoPresenter.swift */; };
+		CEE5CFD527107FB40074F763 /* ClovaSeeWrapper+DetectFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFC727107FB40074F763 /* ClovaSeeWrapper+DetectFace.swift */; };
+		CEE5CFD627107FB40074F763 /* CSUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFC927107FB40074F763 /* CSUserDefault.swift */; };
+		CEE5CFD727107FB40074F763 /* CSUserDefaultKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CFCA27107FB40074F763 /* CSUserDefaultKey.swift */; };
 		EB636C17262ED30E00909BE3 /* clova_see.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB636C15262ED30800909BE3 /* clova_see.xcframework */; };
 		EB636C18262ED30E00909BE3 /* clova_see.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB636C15262ED30800909BE3 /* clova_see.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EBB133982616EADD003DD43B /* clovasee.all.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBB133972616CB25003DD43B /* clovasee.all.bundle */; };
@@ -44,8 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4A472A76253547B70013E6D8 /* clovasee.ocr.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; name = clovasee.ocr.bundle; path = ../../bundles/clovasee.ocr.bundle; sourceTree = "<group>"; };
-		4A472A77253547B70013E6D8 /* clovasee.body.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; name = clovasee.body.bundle; path = ../../bundles/clovasee.body.bundle; sourceTree = "<group>"; };
+		4A472A76253547B70013E6D8 /* clovasee.ocr.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = clovasee.ocr.bundle; path = ../../bundles/clovasee.ocr.bundle; sourceTree = "<group>"; };
+		4A472A77253547B70013E6D8 /* clovasee.body.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = clovasee.body.bundle; path = ../../bundles/clovasee.body.bundle; sourceTree = "<group>"; };
 		4A472A792536EFD10013E6D8 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		4ABF65DC24862FDC00FF347C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ABF65DE248630AF00FF347C /* DemoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPresenter.swift; sourceTree = "<group>"; };
@@ -64,10 +78,24 @@
 		CE10D45A2240F5BD00EF0816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE10D45C2240F5BD00EF0816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE10D5522254E51100EF0816 /* Sample_Face-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample_Face-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE4F721027109F2900D60E63 /* DemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoListViewController.swift; sourceTree = "<group>"; };
 		CEAC0803228581A500BE4363 /* face_1_720x1280_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face_1_720x1280_02.jpg; sourceTree = "<group>"; };
 		CEAC0804228581A600BE4363 /* face_1_720x1280_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face_1_720x1280_01.jpg; sourceTree = "<group>"; };
+		CEE5CFBB27107FB40074F763 /* DemoCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCategory.swift; sourceTree = "<group>"; };
+		CEE5CFBD27107FB40074F763 /* Clova_see_DemoInterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clova_see_DemoInterator.swift; sourceTree = "<group>"; };
+		CEE5CFBE27107FB40074F763 /* CALayer+draw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+draw.swift"; sourceTree = "<group>"; };
+		CEE5CFBF27107FB40074F763 /* Clova_see_DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clova_see_DemoViewController.swift; sourceTree = "<group>"; };
+		CEE5CFC027107FB40074F763 /* Clova_see.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Clova_see.storyboard; sourceTree = "<group>"; };
+		CEE5CFC227107FB40074F763 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CEE5CFC327107FB40074F763 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		CEE5CFC427107FB40074F763 /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		CEE5CFC527107FB40074F763 /* UIView+draw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+draw.swift"; sourceTree = "<group>"; };
+		CEE5CFC627107FB40074F763 /* Clova_see_DemoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clova_see_DemoPresenter.swift; sourceTree = "<group>"; };
+		CEE5CFC727107FB40074F763 /* ClovaSeeWrapper+DetectFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ClovaSeeWrapper+DetectFace.swift"; sourceTree = "<group>"; };
+		CEE5CFC927107FB40074F763 /* CSUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUserDefault.swift; sourceTree = "<group>"; };
+		CEE5CFCA27107FB40074F763 /* CSUserDefaultKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUserDefaultKey.swift; sourceTree = "<group>"; };
 		EB636C15262ED30800909BE3 /* clova_see.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = clova_see.xcframework; sourceTree = "<group>"; };
-		EBB133972616CB25003DD43B /* clovasee.all.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; name = clovasee.all.bundle; path = ../../bundles/clovasee.all.bundle; sourceTree = "<group>"; };
+		EBB133972616CB25003DD43B /* clovasee.all.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = clovasee.all.bundle; path = ../../bundles/clovasee.all.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +140,10 @@
 		CE10D44F2240F5BC00EF0816 /* Sample_Face */ = {
 			isa = PBXGroup;
 			children = (
+				EB636C15262ED30800909BE3 /* clova_see.xcframework */,
+				CEE5CFBC27107FB40074F763 /* Clova_see_Demo */,
+				CEE5CFC827107FB40074F763 /* CSUserDefault */,
+				CEE5CFBA27107FB40074F763 /* Demo List */,
 				4ABF65DF248630B100FF347C /* CameraManager.swift */,
 				4ABF65E0248630B300FF347C /* DemoInteractor.swift */,
 				4ABF65DE248630AF00FF347C /* DemoPresenter.swift */,
@@ -124,7 +156,6 @@
 				CE10D4592240F5BD00EF0816 /* LaunchScreen.storyboard */,
 				CE10D45C2240F5BD00EF0816 /* Info.plist */,
 				CE10D5522254E51100EF0816 /* Sample_Face-Bridging-Header.h */,
-				EB636C15262ED30800909BE3 /* clova_see.xcframework */,
 			);
 			path = Sample_Face;
 			sourceTree = "<group>";
@@ -150,6 +181,49 @@
 				CEAC0803228581A500BE4363 /* face_1_720x1280_02.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEE5CFBA27107FB40074F763 /* Demo List */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F721027109F2900D60E63 /* DemoListViewController.swift */,
+				CEE5CFBB27107FB40074F763 /* DemoCategory.swift */,
+			);
+			path = "Demo List";
+			sourceTree = "<group>";
+		};
+		CEE5CFBC27107FB40074F763 /* Clova_see_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CFBD27107FB40074F763 /* Clova_see_DemoInterator.swift */,
+				CEE5CFBE27107FB40074F763 /* CALayer+draw.swift */,
+				CEE5CFBF27107FB40074F763 /* Clova_see_DemoViewController.swift */,
+				CEE5CFC027107FB40074F763 /* Clova_see.storyboard */,
+				CEE5CFC127107FB40074F763 /* Setting */,
+				CEE5CFC527107FB40074F763 /* UIView+draw.swift */,
+				CEE5CFC627107FB40074F763 /* Clova_see_DemoPresenter.swift */,
+				CEE5CFC727107FB40074F763 /* ClovaSeeWrapper+DetectFace.swift */,
+			);
+			path = Clova_see_Demo;
+			sourceTree = "<group>";
+		};
+		CEE5CFC127107FB40074F763 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CFC227107FB40074F763 /* SettingViewController.swift */,
+				CEE5CFC327107FB40074F763 /* Setting.storyboard */,
+				CEE5CFC427107FB40074F763 /* SettingCell.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		CEE5CFC827107FB40074F763 /* CSUserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CFC927107FB40074F763 /* CSUserDefault.swift */,
+				CEE5CFCA27107FB40074F763 /* CSUserDefaultKey.swift */,
+			);
+			path = CSUserDefault;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,12 +286,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE5CFCF27107FB40074F763 /* Clova_see.storyboard in Resources */,
 				EBB133982616EADD003DD43B /* clovasee.all.bundle in Resources */,
 				CEAC0806228581A600BE4363 /* face_1_720x1280_01.jpg in Resources */,
 				CEAC0805228581A600BE4363 /* face_1_720x1280_02.jpg in Resources */,
 				CE10D45B2240F5BD00EF0816 /* LaunchScreen.storyboard in Resources */,
 				CE10D4582240F5BD00EF0816 /* Assets.xcassets in Resources */,
 				CE10D4562240F5BC00EF0816 /* Main.storyboard in Resources */,
+				CEE5CFD127107FB40074F763 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,18 +304,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE5CFD627107FB40074F763 /* CSUserDefault.swift in Sources */,
 				4ABF65DD24862FDC00FF347C /* ViewController.swift in Sources */,
 				4ABF65E2248630B300FF347C /* CameraManager.swift in Sources */,
 				4ABF65E1248630B300FF347C /* DemoPresenter.swift in Sources */,
 				CE10D4512240F5BC00EF0816 /* AppDelegate.swift in Sources */,
 				4ABF65EB248630D300FF347C /* PixelBuffer+Extension.swift in Sources */,
+				CEE5CFD027107FB40074F763 /* SettingViewController.swift in Sources */,
+				CEE5CFCE27107FB40074F763 /* Clova_see_DemoViewController.swift in Sources */,
 				4A472A7A2536EFD10013E6D8 /* UIButton+Extension.swift in Sources */,
+				CEE5CFD327107FB40074F763 /* UIView+draw.swift in Sources */,
+				CEE5CFD227107FB40074F763 /* SettingCell.swift in Sources */,
 				4ABF65EF248630D300FF347C /* Utils.swift in Sources */,
+				CEE5CFD727107FB40074F763 /* CSUserDefaultKey.swift in Sources */,
+				CEE5CFCD27107FB40074F763 /* CALayer+draw.swift in Sources */,
 				4ABF65ED248630D300FF347C /* ClovaSeeWrapper+Extension.swift in Sources */,
+				CEE5CFD427107FB40074F763 /* Clova_see_DemoPresenter.swift in Sources */,
 				4ABF65EE248630D300FF347C /* UIImage+CVPixelBuffer.swift in Sources */,
+				CEE5CFCB27107FB40074F763 /* DemoCategory.swift in Sources */,
 				4ABF65F1248630D300FF347C /* CVPixelBuffer+Helpers.swift in Sources */,
 				4ABF65F0248630D300FF347C /* UIImage+Extension.swift in Sources */,
+				CEE5CFD527107FB40074F763 /* ClovaSeeWrapper+DetectFace.swift in Sources */,
 				4ABF65E3248630B300FF347C /* DemoInteractor.swift in Sources */,
+				CEE5CFCC27107FB40074F763 /* Clova_see_DemoInterator.swift in Sources */,
+				CE4F721127109F2900D60E63 /* DemoListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +481,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F4PATJC655;
+				DEVELOPMENT_TEAM = RSJ3B898W8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sample_Face",

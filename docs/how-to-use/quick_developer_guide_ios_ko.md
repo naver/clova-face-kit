@@ -3,6 +3,14 @@
 ## 예제 프로젝트
 
 CLOVA SEE의 적용법과 사용법은 [examples/ios](../../examples/ios)를 참고해주세요.
+CLOVA SEE를 iOS Project에서 사용하려면, 아래의 절차를 따라주셔야 합니다.
+
+1. [Release Page](../../releases) 로 이동합니다
+2. clova_see.xcframework-{version}.zip 을 내려받아서, 압축을 풉니다.
+3. 필요한 *.bundle 을 내려받습니다.
+4. 2와 3에서 받은 파일들을, 아래의 사진과 같이 Xcode project 에 추가합니다.
+
+<img src="../figure_5.png" width=90%/><br/>
 
 ## 간단 사용법
 
