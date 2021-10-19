@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clova See for DEVIEW 2021</title>
+  <script type="application/javascript" src="clovasee.js"></script>
+  <script type="application/javascript" src="capture.js"></script>
+</head>
+<body>
+  <div class="contentarea">
+    <div class="content">
+      <video id="video" hidden=true>Video stream not available.</video>
+      <button id="startbutton">Start</button>
+      <div class="features">
+        <label><input type="checkbox" id="contour" name="contour">contour</label>
+        <label><input type="checkbox" id="angle" name="angle">angle</label>
+      </div>
+      <div class="selector">
+        <label><input type="radio" id="emoji_0" name="selector" value="0"/>emoji_0</label>
+        <label><input type="radio" id="emoji_1" name="selector" value="1"/>emoji_1</label>
+        <label><input type="radio" id="emoji_2" name="selector" value="2"/>emoji_2</label>
+        <label><input type="radio" id="emoji_3" name="selector" value="3" checked="checked"/>none</label>
+      </div>
+    </div>
+    <div class="output">
+      <canvas id="canvas" hidden=true></canvas>
+      <img id="photo" alt="The screen capture will appear in this box.">
+    </div>
+  </div>
+</body>
+</html>
