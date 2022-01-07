@@ -199,10 +199,10 @@ clovasee = ClovaSeeWrapper(settings: CSSettings(builder: settings))
 *그림 1*
 
 <img src="../figure_2.png" width=50%/><br/>
-*그림 2*
+*그림 2. 106 Points*
 
 <img src="../figure_3.png" width=50%/><br/>
-*그림 3*
+*그림 3. 98 Points*
 
 <img src="../figure_4.png" width=50%/><br/>
 *그림 4*
