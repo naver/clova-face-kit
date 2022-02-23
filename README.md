@@ -38,6 +38,10 @@ CLOVA Face Kit (also known as CLOVA SEE) is an easy-to-use vision analysis SDK. 
 | iPhone 7 	| 3.0 ms | 0.7 ms | 5.8 ms | 14.7 ms | 0.4 ms | 17 ms |
 | i7-4770hq | 5.1 ms | 0.5 ms | 9.2 ms | 9.4 ms | 0.4 ms | 12 ms |
 
+## Version Convention
+
+A version in [/releases] follows [HeadVer](https://github.com/line/headver) convention, `{head}.{yearweek}.{build}` convention, but the last digit is omitted due to various build numbers on each platform. For example, `0.2134` stands for a released artifacts of version `0` in `34th` week of `2021`.
+
 ## License
 
 ```
